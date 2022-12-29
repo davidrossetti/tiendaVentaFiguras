@@ -1,0 +1,53 @@
+.container {
+    margin: 60px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: auto;
+    pointer-events: none;
+}
+
+.card { 
+    width: 350px;
+    height: 350px;
+    border: 1px solid rgb(80, 47, 47);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#listaNavegacion{
+    display: flex;
+    background-color: rgb(175, 75, 75);
+    padding: 30px;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    
+}
+
+#listaNavegacion ul{
+    justify-content: center;
+
+}
+
+#listaNavegacion li button{
+    
+    margin: 30px;
+    width: 200px;
+    height: 150px;
+}
+
+.modo-claro{
+    background-color: rgb(237, 237, 43);
+}
+
+.modo-oscuro{
+    background-color: black;
+    color: white;
+}
